@@ -17,7 +17,7 @@ function org_chart(mydata){
                     r = mydata[i];
                     console.log("parent",r.parent.toString());
                     if (r.type == "BOX"){
-                       link = "<a href=#> hello</a>";
+                       link = "<a href=#> Usman</a>";
                     }else{
                         link = "";
                     }
