@@ -7,12 +7,11 @@ function org_chart(mydata){
 			google.charts.setOnLoadCallback(draw);
 
             function draw(){
-                console.log("drawing");
                 link = "";
                 var data = new google.visualization.DataTable();
                 data.addColumn("string", "parent_id");
                 data.addColumn("string", "child_id");
-
+                
                 for (var i = 0 ; i < mydata.length; i++){
                     r = mydata[i];
                     console.log("parent",r.parent.toString());
